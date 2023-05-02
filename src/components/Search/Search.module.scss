@@ -1,0 +1,42 @@
+.root {
+	position: relative;
+}
+
+.input {
+	margin: 15px 0px 15px 0px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 15px 20px;
+	padding-left: 38px;
+	width: 250px;
+	border-radius: 9px;
+	font-size: 14px;
+	transition: all 0.15s ease-in-out;
+
+	&:focus {
+		box-shadow: 0.3px 0.3px#737373;
+		border: 1px solid rgba(0, 0, 0, 0.6);
+	}
+}
+
+.searchIcon {
+	opacity: 0.3;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 10px;
+	top: 31px;
+}
+
+.clearIcon {
+	opacity: 0.3;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 223px;
+	top: 31px;
+	cursor: pointer;
+
+	&:hover {
+		opacity: 1;
+	}
+}

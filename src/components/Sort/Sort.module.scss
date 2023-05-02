@@ -1,0 +1,54 @@
+.sort {
+	position: relative;
+	margin: 15px 0px 15px 0px;
+	padding: 15px;
+	display: flex;
+	z-index: 3;
+	align-items: self-start;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+
+	border-radius: 5px;
+
+	b {
+		margin-right: 8px;
+		letter-spacing: 0.115em;
+	}
+
+	span {
+		background-color: #dad2d2;
+		color: #161010;
+		font-weight: 500;
+		border-bottom: 2px dashed red;
+		cursor: pointer;
+	}
+}
+
+.sort__popup {
+	position: absolute;
+	right: 0;
+	margin-top: 30px;
+	background: #dbdada;
+	box-shadow: 0px 5px 15px rgba(12, 12, 12, 0.09);
+	border-radius: 10px;
+	overflow: hidden;
+	width: 150px;
+
+	ul {
+		overflow: hidden;
+		li {
+			padding: 12px 20px;
+			cursor: pointer;
+
+			&.active,
+			&:hover {
+				background-color: #292727;
+				color: #dbdada;
+			}
+
+			&.active {
+				font-weight: bold;
+				color: #161010;
+			}
+		}
+	}
+}

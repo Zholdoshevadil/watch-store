@@ -1,0 +1,40 @@
+.categories__main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.categories {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 0px;
+
+	ul {
+		display: flex;
+		justify-content: center;
+
+		li {
+			border: 1px solid rgba(0, 0, 0, 0.4);
+			background-color: #ffffff;
+			padding: 15px 30px;
+			border-radius: 5px;
+			margin-right: 10px;
+			font-weight: 600;
+			cursor: pointer;
+			transition: background-color 0.1s ease-in-out;
+
+			&:hover {
+				background-color: darken(#fafafa, 2%);
+			}
+
+			&:active {
+				background-color: darken(#f9f9f9, 5%);
+			}
+
+			&.active {
+				background-color: #282828;
+				color: #fff;
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+@import './components/all.scss';
+
+.body {
+	background-color: #fff;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+[class*='_container'] {
+	max-width: 1280px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.content__items {
+	display: flex;
+	flex: auto;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+Link,
+Link:visited {
+	color: none;
+	text-decoration: none;
+	outline-color: none;
+}
