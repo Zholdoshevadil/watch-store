@@ -26,7 +26,7 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
-		"dev": "concurrently \"yarn start server\" \"yarn start dev\"",
+		"dev": "concurrently \"yarn run server\" \"yarn run start\"",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
